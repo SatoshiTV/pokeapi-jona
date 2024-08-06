@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeapi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ruta al archivo CSS -->
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Pokeapi</h1>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <section id="search">
+            <div id="pokemon-info">
+                <h2>Buscar Pokémon</h2>
+                <div id="search-form">
+                    <input type="text" id="pokemon-query" placeholder="ID o nombre del Pokémon">
+                    <button id="search-button">Buscar</button>
+                </div>
+                <div id="pokemon-details">
+                    <img id="pokemon-image" src="placeholder.png" alt="Imagen del Pokémon"> <!-- Imagen placeholder -->
+                    <p><strong>ID:</strong> <span id="pokemon-id"></span></p>
+                    <p><strong>Nombre:</strong> <span id="pokemon-name"></span></p>
+                    <p><strong>Peso:</strong> <span id="pokemon-weight"></span></p>
+                    <p><strong>Altura:</strong> <span id="pokemon-height"></span></p>
+                    <p><strong>Tipo:</strong> <span id="pokemon-types"></span></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Pokeapi</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Ruta al archivo JavaScript -->
+</body>
+</html>
